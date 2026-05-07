@@ -1,0 +1,122 @@
+# Car Speed Table HTML Project
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Top Speeds</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #d9d9d9;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Cars Sorted By Top Speed</h1>
+
+  <table>
+    <tr>
+      <th>Speed Range</th>
+      <th>Cars</th>
+    </tr>
+
+    <tr>
+      <td>190–200 km/h</td>
+      <td>
+        BMW i3, Mazda3 Hatchback, Honda Civic Hatchback,
+        Hyundai i30 N, Renault Megane RS, Audi A3,
+        Ford Focus (1.5 diesel), Volkswagen Golf GTI,
+        Volkswagen Golf (base models)
+      </td>
+    </tr>
+
+    <tr>
+      <td>200–210 km/h</td>
+      <td>
+        BMW 3 Series, Audi A4, Mercedes‑Benz C‑Class,
+        Lexus ES, Volkswagen Passat, Škoda Superb,
+        Ford Mondeo, Opel Insignia, Peugeot 508
+      </td>
+    </tr>
+
+    <tr>
+      <td>210–220 km/h</td>
+      <td>
+        Lamborghini Urus, Volvo XC60 B6,
+        Opel Grandland Electric, Toyota Yaris Cross,
+        Bentley Bentayga Speed, MG MG5 EV,
+        Tesla Model Y Performance, Audi Q5 45 TFSI,
+        Ford Kuga
+      </td>
+    </tr>
+
+    <tr>
+      <td>220–230 km/h</td>
+      <td>
+        Ford Transit, Mercedes‑Benz Vito,
+        Volkswagen Transporter, Mercedes‑Benz V‑Class,
+        Ford Tourneo Custom, Volkswagen Multivan T7,
+        Mercedes‑Benz Sprinter, Ford E‑Transit,
+        Fiat Doblò
+      </td>
+    </tr>
+
+    <tr>
+      <td>230–240 km/h</td>
+      <td>
+        BMW M340i, Audi S5, Mercedes‑AMG C43
+      </td>
+    </tr>
+
+    <tr>
+      <td>240–250 km/h</td>
+      <td>
+        Porsche 911 Carrera, Audi RS5, BMW M5
+      </td>
+    </tr>
+
+    <tr>
+      <td>250+ km/h</td>
+      <td>
+        Bugatti Chiron, Ferrari SF90 Stradale,
+        Lamborghini Aventador SVJ, McLaren 720S
+      </td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
+```
+
+`
